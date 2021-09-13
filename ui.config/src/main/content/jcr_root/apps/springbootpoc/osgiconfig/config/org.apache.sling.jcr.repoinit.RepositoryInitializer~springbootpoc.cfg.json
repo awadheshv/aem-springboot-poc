@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/springbootpoc",
+        "create path (nt:unstructured) /content/dam/springbootpoc/jcr:content",
+        "set properties on /content/dam/springbootpoc/jcr:content",
+        "set cq:conf{String} to /conf/springbootpoc",
+        "set jcr:title{String} to \"SpringBootPoc\"",
+        "end"
+    ]
+}
